@@ -1,0 +1,80 @@
+<h1 align="center">Cadastro de Cavalos</h1>
+
+<div class="card">
+    <form action="/cadastroPost" method="post">
+    <br>
+    <h3>Informações do Cavalo</h3>
+    <br>
+        <div class="row">
+            <div class="col-2">
+                <label for="baia"> Baia: </label><br>
+                <input type="text" id="baia" class ="form-control" name="baia" placeholder="Digite a baia do cavalo"><br>
+            </div>
+            
+            <div class ="col-5">
+                <label for="nome"> Nome do cavalo: </label><br>
+                <input type="text" id="nome" class ="form-control" name="nome" placeholder="Digite o nome do cavalo"><br>
+            </div>
+            
+            <div class ="col-3">
+                <label for="nroRegistro"> Número de Registro: </label><br>
+                <input type="text" id="nroRegistro" class ="form-control" name="nroRegistro" placeholder="Digite o número de registro"><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class ="col-2">
+                <label for="dataNasc"> Data de nascimento: </label><br>
+                <input type="date" id="dataNasc" class ="form-control" name="dataNasc" placeholder="Digite a data de nascimento"><br>
+            </div>            
+             <div class ="col-2">
+                <label for="pelagem"> Pelagem: </label><br>
+                <input type="text" id="pelagem" class ="form-control" name="pelagem" placeholder="Pelagem"><br>
+             </div>
+            <div class="col-2">
+                <label for="raca"> Raça: </label><br>
+                <input type="text" id="raca" class ="form-control" name="raca" placeholder="Digite a raça do cavalo"><br>
+            </div>
+            <div class="col-2">
+                <label for="sexo"> Sexo: </label><br>
+                <input type="text" id="sexo" class ="form-control" name="sexo" placeholder="Digite o sexo do cavalo"><br>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class ="col-5">
+                <label for="nomePai"> Nome do Pai: </label><br>
+                <input type="text" id="nomePai" class ="form-control" name="nomePai" placeholder="Digite o nome do pai"><br>
+            </div>
+            <div class ="col-5">
+                <label for="nomeMae"> Nome da Mãe: </label><br>
+                <input type="text" id="nomeMae" class ="form-control" name="nomeMae" placeholder="Digite o nome da mãe"><br>
+            </div>
+        </div>
+        <br>
+        <h3>Informações do proprietário</h3>
+        <br>
+        <div class="row">
+            <div class ="col-5">
+                <label for="proprietario"> Proprietário: </label><br>
+                <input type="text" id="proprietario" class="form-control" name="proprietario" placeholder="Digite o nome do proprietário"><br>
+            </div>
+            <div class ="col-3">
+                <label for="cpf"> CPF: </label><br>
+                <input type="text" id="cpf" class= "form-control" name="cpf" placeholder="Digite o cpf"><br>
+            </div>
+        </div>
+      <div class="row">
+        <div class="col-5">
+            <label for="contato"> Telefone: </label><br>
+            <input type="text" id="contato" class ="form-control"name="contato" placeholder="Digite o número do telefone"><br>
+        </div>
+        <div class="col-5">
+            <label for="email"> Email: </label><br>
+            <input type="email" id="email" class="form-control" name="email" placeholder="Email do proprietário"><br>
+        </div>
+      </div>
+      <div align="center">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+    
+    </form>
+</div>

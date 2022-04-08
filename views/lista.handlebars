@@ -1,0 +1,27 @@
+<h1 align="center">Cavalos Cadastrados</h1>
+<!--caso exista os cavalos, imprime cavalos-->
+{{#each cavalos}}
+    <h4><b>Cavalo: {{dataValues.nome}}</b></h4>
+    <p>Baia: {{dataValues.baia}}</p>
+    <p>Número de registro: {{dataValues.nroRegistro}}</p>
+    <p>Pelagem: {{dataValues.pelagem}}</p>
+    <p>Raça: {{dataValues.raca}}</p>
+    <p>Sexo: {{dataValues.sexo}}</p>
+    <p>Data de nascimento: {{dataValues.dataNasc}}</p>
+    <p>Nome do pai: {{dataValues.nomePai}}</p>
+    <p>Nome da mãe: {{dataValues.nomeMae}}</p>
+    <h6><b>Informações do Proprietário:</b></h6>
+    <p>Proprietário: {{dataValues.proprietario}}</p>
+    <p>cpf: {{dataValues.cpf}}</p>
+    <p>Telefone: {{dataValues.contato}}</p>
+    <p>E-mail: {{dataValues.email}}</p>
+    <br>
+    <a href="/editar/{{dataValues.id}}"><button  class="btn btn-primary">Editar</button></a>
+    <a href="/deletar/{{dataValues.id}}" ><button class="btn btn-danger">Deletar</button></a>
+    <hr>
+    <hr>
+{{/each}}
+
+{{#each cavalos}}
+  
+{{/each}}
